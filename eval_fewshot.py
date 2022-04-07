@@ -38,7 +38,7 @@ def parse_option():
                                                                                 'CIFAR-FS', 'FC100', "toy",'cub'])
     parser.add_argument('--transform', type=str, default='A', choices=transforms_list)
     # specify data_root
-    parser.add_argument('--data_root', type=str, default='/home/lxj/new_main/dataset', help='path to data root')
+    parser.add_argument('--data_root', type=str, default='/home/~/dataset', help='path to data root')
     parser.add_argument('--simclr', type=bool, default=False, help='use simple contrastive learning representation')
     
     # meta setting
